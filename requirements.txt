@@ -1,0 +1,15 @@
+filelock==3.0.12
+importlib-metadata==3.10.0
+multidict==5.1.0
+numpy==1.20.0
+regex==2020.11.13
+sacremoses==0.0.43
+scikit-learn==0.24.1
+scipy==1.6.2
+sentencepiece==0.1.91
+tensorboardX==2.1
+tokenizers==0.10.1
+torch==1.7.1
+tqdm==4.56.0
+transformers==4.4.2
+wheel==0.36.2
