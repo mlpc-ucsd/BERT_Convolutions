@@ -1,5 +1,5 @@
-# convolutions-and-self-attention
-Code for the paper [Convolutions and self-attention: Re-interpreting relative positions in pre-trained language models](https://github.com/mlpc-ucsd).
+# BERT Convolutions
+Code for the paper [Convolutions and Self-Attention: Re-interpreting Relative Positions in Pre-trained Language Models](https://github.com/mlpc-ucsd).
 Contains experiments for integrating convolutions and self-attention in BERT models.
 Code is adapted from [Huggingface Transformers](https://github.com/huggingface/transformers).
 Model code is in src/transformers/modeling_bert.py.
@@ -45,7 +45,7 @@ python3 run_language_modeling.py \
 </pre>
 
 Optional flags to change BERT architecture when pre-training from scratch:<br/>
-In the following, qk uses query/key attention, convfixed is a fixed lightweight convolution, convq is query-based dynamic lightweight convolution (relative embeddings), convk is a key-based dynamic lightweight convolution, and convolution is a fixed depthwise convolution.
+In the following, qk uses query/key self-attention, convfixed is a fixed lightweight convolution, convq is query-based dynamic lightweight convolution (relative embeddings), convk is a key-based dynamic lightweight convolution, and convolution is a fixed depthwise convolution.
 <pre>--attention_kernel="qk_convfixed_convq_convk [num_positions_each_dir]"</pre>
 Remove absolute position embeddings:
 <pre>--remove_position_embeddings</pre>
