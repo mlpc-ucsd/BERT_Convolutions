@@ -1,5 +1,5 @@
 # BERT Convolutions
-Code for the paper [Convolutions and Self-Attention: Re-interpreting Relative Positions in Pre-trained Language Models](https://github.com/mlpc-ucsd).
+Code for the paper [Convolutions and Self-Attention: Re-interpreting Relative Positions in Pre-trained Language Models](https://arxiv.org/abs/2106.05505).
 Contains experiments for integrating convolutions and self-attention in BERT models.
 Code is adapted from [Huggingface Transformers](https://github.com/huggingface/transformers).
 Model code is in src/transformers/modeling_bert.py.
