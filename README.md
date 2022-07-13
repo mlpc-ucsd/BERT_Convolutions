@@ -5,6 +5,8 @@ Code is adapted from [Huggingface Transformers](https://github.com/huggingface/t
 Model code is in src/transformers/modeling_bert.py.
 Run on Python 3.6.9 and Pytorch 1.7.1 (see requirements.txt).
 
+Update: cleaner code for pre-training language models is [here](https://github.com/tylerachang/word-acquisition-language-models).
+
 ## Training
 To train tokenizer, use custom_scripts/train_spm_tokenizer.py.
 To pre-train BERT with a plain text dataset:
